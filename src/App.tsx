@@ -6,6 +6,7 @@ function App() {
       <Routes>
         <Route path="/" element={""} />
         <Route path="/about" element={""} />
+        <div>hello</div>
       </Routes>
     </Router>
   );
