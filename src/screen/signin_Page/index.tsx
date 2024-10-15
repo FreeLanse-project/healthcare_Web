@@ -6,7 +6,7 @@ function SignInPage() {
     <div className="flex items-center justify-center h-[80vh] ">
       <div className="flex-col  rounded-md md:p-4 w-[90%] md:w-[50%]">
         <TextComponent
-          text="Sign in to your account"
+          text="Sign in to your account "
           className=" text-2xl font-bold"
         />
         <div className="flex space-x-2 py-4">
