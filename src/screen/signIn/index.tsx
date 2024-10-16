@@ -1,10 +1,11 @@
 import ButtonComponent from "../../component/button";
+import IntroImage from "../../component/introImg";
 import TextComponent from "../../component/textComponent";
 
-function SignInPage() {
+function SignIn() {
   return (
     <div className="flex items-center justify-center h-[80vh] ">
-      <div className="flex-col  rounded-md md:p-4 w-[90%] md:w-[50%]">
+      <div className="flex-col  rounded-md md:p-16 w-[90%] md:w-[50%]">
         <TextComponent
           text="Sign in to your account"
           className=" text-2xl font-bold"
@@ -20,14 +21,14 @@ function SignInPage() {
             <TextComponent text="Email address" className="py-3" />
             <input
               type="email"
-              className=" border border-gray w-full h-10 rounded-md transition-all"
+              className=" border border-gray p-2 w-full h-10 rounded-md transition-all"
             />
           </div>
           <div className="flex-col">
             <TextComponent text="Password" className="pb-3 pt-6" />
             <input
               type="password"
-              className=" border border-gray w-full h-10 rounded-md"
+              className=" border border-gray p-2 w-full h-10 rounded-md"
             />
           </div>
 
@@ -43,15 +44,9 @@ function SignInPage() {
           <ButtonComponent text="Sign in" />
         </form>
       </div>
-      <div className=" max-md:hidden w-[50%] overflow-hidden">
-        <img
-          src="src\assets\introImage.jpg"
-          alt=""
-          className="h-[80vh]  object-fill"
-        />
-      </div>
+      <IntroImage />
     </div>
   );
 }
 
-export default SignInPage;
+export default SignIn;
