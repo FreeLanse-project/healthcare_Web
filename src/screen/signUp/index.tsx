@@ -12,7 +12,7 @@ function SignUp() {
             text={`Already have an account?`}
             className="text-text_gray"
           />
-          <a href="/" className="text-text_blue font-bold">
+          <a href="signin" className="text-text_blue font-bold">
             Sign in
           </a>
         </div>
